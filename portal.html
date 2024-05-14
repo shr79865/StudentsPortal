@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container p {
+            text-align: center;
+            font-size: 14px;
+            color: #9ea1a8;
+        }
+
+        .container a {
+            text-decoration: none;
+        }
+
+        .head {
+            padding-bottom: 18px;
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding-bottom: 15px;
+        }
+
+        .inputs input {
+            padding: 10px 20px;
+            border-radius: 10px;
+            outline: none;
+            border: 1px solid #E5E7EB;
+            font-size: 15px;
+        }
+
+        .inputs input:focus {
+            outline: none;
+            border: px solid #0055ff;
+        }
+
+
+        .execute {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .log {
+            padding: 10px 170px;
+            border-radius: 10px;
+            background: #223E76;
+            color: white;
+        }
+
+        .for {
+            padding-top: 10px;
+            font-size: 15px;
+            color: #223E76;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <form action="">
+            <div class="container">
+                <div>
+                    <div class="image">
+                        <img src="codeitlogo.png" alt="image" width="150">
+                    </div>
+
+                    <div class="head">
+                        <h1>Student Portal</h1>
+                        <p>Stable version 1.0</p>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="email" placeholder="Email" required>
+                        <input type="password" placeholder="Password" req>
+                    </div>
+
+                    <div class="execute">
+                        <button class="log">Login</button>
+                        <a class="for" href="https://codeit.com.np/forgotpassword">Forgot Password?</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
